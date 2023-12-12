@@ -9,6 +9,11 @@ class Phone
         Manufacturer = manufacturer;
     }
 
+    public Phone()
+    {
+
+    }
+
     public void Call(string _number)
     {
         if (CallOnGoing)
